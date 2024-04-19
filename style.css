@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --text-color: #000;
+  --head-color: #ff0000;
+  --main-color: #00eeff;
+  --foot-color: #fff;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--text-color);
+  color: var(--text-color);  
+  font-size: 20px;
+}
+
+header {
+  height: 80px;
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  position: fixed;
+  z-index: 12;
+}
+
+.logo {
+  font-family: 'Aclonica';
+  font-size: 25px;
+  padding: 25px;
+  margin-left: 50px;
+
+}
+
+.logo a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.logo a:hover{
+  color: var(--foot-color);
+}
+
+.nav_bar{
+  font-family: 'poppins';
+  font-size: 20px;
+  float: right;
+  list-style: none;
+}
+
+.nav_bar li {
+  display: inline-block;
+}
+
+.nav_bar li a {
+  padding: 15px;
+}
+
+.nav_bar li a:hover {
+  background: #959191;
+  color: var(--foot-color);
+  border: 1px solid #000;
+  border-radius: 50px;
+  border-width: auto;
+  padding: 1rem;
+}
+
+.corousel-item img{
+  -webkit-backdrop-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: auto;
+  height: auto;
+  filter: brightness(100%);
+}
+
+.box {
+  background: rgba(0,0,0,0.3);
+  background-size: cover;
+  width: auto;
+  padding: 25px;
+}
+
+.home {
+  height: 100vh;
+  width: 100%;
+  background: url(images/AW_wall.webp);
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  padding: 26rem;
+}
+
+.home .input {
+  padding: 4rem 10% 0 22rem;
+}
+
+.home .input .search-box {
+    background: rgba(0, 0, 0, 0);
+    color: var(--text-color);
+    border: none;
+    width: 40rem;
+    height: 50px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #000;
+}
+
+.home h2 {
+  display: grid;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 25px;
+  box-shadow: 0 0 10px #000000;
+  color: #000000;
+  text-align: center;
+  font-weight: 600;
+  font-size: 52px;
+}
